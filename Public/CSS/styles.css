@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 10rem;
+  margin-top: 3rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.options-custom {
+  text-align: left;
+  width: 100%;
+}
+
+.options-custom h1 {
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.options-custom form {
+  padding-top: 1rem;
+  text-align: left;
+  display: inline-block;
+}
+
+.options-custom form #choose {
+  margin-top: 1rem;
+  font-size: 2rem;
+  width: 30rem;
+  height: 2rem;
+  padding: 0.8rem;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  cursor: pointer;
+}
+
+.options-custom form #choose ::-webkit-input-placeholder {
+  text-align: left;
+}
+
+.options-custom form #choose :-ms-input-placeholder {
+  text-align: left;
+}
+
+.options-custom form #choose ::-ms-input-placeholder {
+  text-align: left;
+}
+
+.options-custom form #choose ::placeholder {
+  text-align: left;
+}
+
+.options-custom form #choose:hover, .options-custom form #choose:focus {
+  border-bottom: 0.3rem solid #37e037;
+}
+
+.options-custom #col_button {
+  padding: 1.2rem 3.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #92fc92;
+  margin-left: 2rem;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  font-size: 2rem;
+}
+
+.options-custom #col_button:hover {
+  background-color: #2cfa2c;
+}
+
+.options-custom .formWrapper {
+  width: 100%;
+  display: block;
+}
+
+.options-custom .custom-col {
+  margin-top: 3rem;
+}
+
+.options-custom .custom-col label {
+  font-size: 2rem;
+  color: #414141;
+  margin-right: 2rem;
+}
+
+.options-custom .custom-col input {
+  display: block;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+.options-custom .custom-col input:hover {
+  border-bottom: 0.3rem solid #37e037;
+}
+
+.options-custom .custom-col select {
+  padding: 0.8rem;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+.options-custom .custom-col select option {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
